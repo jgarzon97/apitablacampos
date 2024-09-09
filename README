@@ -1,0 +1,27 @@
+# API Tabla Campos
+
+Esta es una API para gestionar campos de una tabla en una base de datos.
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local.
+2. Ejecuta `npm install` para instalar las dependencias.
+3. Configura las variables de entorno en el archivo `.env`.
+4. Ejecuta `npm start` para iniciar el servidor.
+
+## Uso
+
+- Para obtener todos los campos de una tabla, realiza una solicitud GET a `/campos/{tabla}`.
+- Para agregar un nuevo campo a una tabla, realiza una solicitud POST a `/campos/{tabla}` con los datos del campo en el cuerpo de la solicitud.
+- Para actualizar un campo existente, realiza una solicitud PUT a `/campos/{tabla}/{id}` con los datos actualizados en el cuerpo de la solicitud.
+- Para eliminar un campo, realiza una solicitud DELETE a `/campos/{tabla}/{id}`.
+
+## Contribución
+
+Si deseas contribuir a este proyecto, sigue estos pasos:
+
+1. Haz un fork de este repositorio.
+2. Crea una rama con tu nueva funcionalidad (`git checkout -b nueva-funcionalidad`).
+3. Realiza los cambios necesarios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Haz push a la rama (`git push origin nueva-funcionalidad`).
+5. Abre un pull request en este repositorio.
